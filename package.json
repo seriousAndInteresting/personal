@@ -1,0 +1,16 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:parallel": "cypress-parallel -s cy:run -t 4 -d 'cypress/e2e/2-advanced-examples'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "cypress-parallel": "^0.12.0"
+  }
+}
